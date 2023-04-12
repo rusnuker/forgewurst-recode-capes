@@ -1,0 +1,6 @@
+К сожалению, жсон с юзерами я выбить не смог. Ни из кряка pluto, ни из кряка ССС не получились нормальные сурсы.
+
+Если кто читает, то вот метод, который выбивает юзеров из ссылки:
+
+org.rusherhack.client.RusherHack.M() (у pluto)
+org.rusherhack.client.RusherHack.getCapeUsers() (у ССС)

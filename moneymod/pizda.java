@@ -7,6 +7,9 @@ import java.nio.charset.StandardCharsets;
 import java.io.IOException;
 import java.net.UnknownHostException;
 
+// эта хуйня должна была спиздить список юзеров,
+// но хост уже лежит блять А
+
 public class Main
 {
 	

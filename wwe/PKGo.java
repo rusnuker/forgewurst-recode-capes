@@ -8,7 +8,7 @@ import java.util.*;
 
 public class PKGo
 {
-    public static ArrayList<UUID> PtUQ;
+    public static ArrayList<UUID> users;
     public static final boolean \u200e;
     
     public PKGo() {
@@ -129,15 +129,15 @@ public class PKGo
         throw new IllegalStateException("An error occurred while decompiling this method.");
     }
     
-    public static boolean UBRO(final UUID NyCK) {
+    public static boolean UBRO(final UUID isCapeUser) {
         final boolean \u200e = PKGo.\u200e;
-        return \u200e || \u200e || invokedynamic(\u2002\u200a\u2005\u2004\u2006\u200d\u200d\u200b\u2009\u2007:(Ljava/lang/Object;Ljava/lang/Object;)Z, PKGo.PtUQ, NyCK);
+        return \u200e || \u200e || invokedynamic(\u2002\u200a\u2005\u2004\u2006\u200d\u200d\u200b\u2009\u2007:(Ljava/lang/Object;Ljava/lang/Object;)Z, PKGo.users, isCapeUser);
     }
     
     static {
         final boolean \u200e2 = PKGo.\u200e;
         if (!\u200e2 && !\u200e2) {
-            PKGo.PtUQ = new ArrayList<UUID>();
+            PKGo.users = new ArrayList<UUID>();
             if (!\u200e2) {
                 return;
             }

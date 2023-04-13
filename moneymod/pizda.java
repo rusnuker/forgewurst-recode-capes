@@ -12,6 +12,8 @@ public class Main
 	
 	public static void main(String[] args) throws IOException {
 		Socket socket;
+		String str;
+
 		while(true) {
 			try { socket = new Socket("185.240.103.107", 1631); }
 			catch (UnknownHostException e) {break;}
@@ -22,7 +24,7 @@ public class Main
 			out.writeUTF("ktidrjtdmm+3/capes/hello/jtejgd09i45fjg0ht");
 			out.flush();
 
-			String str = in.readUTF();
+			str = in.readUTF();
 			if (str.equals("mm+3/capes/update")) {
 				StringBuilder send = new StringBuilder("mm+3/capes/post/");
 
@@ -53,7 +55,7 @@ public class Main
 					
 					str = "break";
 				}
-			} else {
+			} if (str.equals("break") {
 				break;
 			}
 		}
